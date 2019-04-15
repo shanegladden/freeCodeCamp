@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './css/bootstrap.css';
 
 export default class HTML extends React.Component {
   render() {
@@ -13,10 +14,11 @@ export default class HTML extends React.Component {
             name='viewport'
           />
           <link
-            href={
-              'https://cdn.freecodecamp.org/compiled/bootstrap/v3/css/' +
-              'bootstrap.min.css'
-            }
+            href={'./css/bootstrap.css'}
+            // href={
+            //   'https://cdn.freecodecamp.org/compiled/bootstrap/v3/css/' +
+            //   'bootstrap.min.css'
+            // }
             rel='stylesheet'
           />
           {this.props.headComponents}

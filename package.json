@@ -71,5 +71,8 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "dependencies": {
+    "mongodb": "^3.2.3"
   }
 }

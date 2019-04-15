@@ -65,7 +65,7 @@ function ToolPanel({
             href={guideUrl}
             target='_blank'
           >
-            {isMobile ? 'Hint' : 'Get a hint'}
+            {isMobile ? 'Hint' : 'Get a hint!'}
           </Button>
         ) : null}
         {videoUrl ? (

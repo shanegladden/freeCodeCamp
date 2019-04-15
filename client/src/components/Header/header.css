@@ -1,5 +1,5 @@
 :root {
-  --header-height: 38px;
+  --header-height: 80px;
 }
 
 header {
@@ -10,7 +10,7 @@ header {
 }
 
 #top-nav {
-  background: #006400;
+  background: #673ab7;
   height: var(--header-height);
   margin-bottom: 0;
   border-radius: 0;
@@ -27,7 +27,7 @@ header {
 }
 
 #top-nav .nav-logo {
-  max-height: 25px;
+  max-height: 40px;
   min-width: 35px;
   margin: 0 5px;
 }
@@ -38,7 +38,7 @@ header {
   list-style: none;
   justify-content: space-between;
   align-items: center;
-  background-color: #006400;
+  background-color: #673ab7;
 }
 
 #top-right-nav li {
@@ -56,7 +56,7 @@ header {
 .top-right-nav-link:focus,
 .top-right-nav-link:active {
   background-color: #fff;
-  color: #006400;
+  color: #673ab7;
   text-decoration: none;
 }
 
@@ -166,7 +166,7 @@ header {
 
 #top-nav .menu-button-open {
   background: white;
-  color: #006400;
+  color: #673ab7;
 }
 
 #top-right-nav .signup-btn,
