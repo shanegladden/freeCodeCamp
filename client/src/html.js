@@ -14,7 +14,7 @@ export default class HTML extends React.Component {
             name='viewport'
           />
           <link
-            href={'./css/bootstrap.css'}
+            href={'/css/bootstrap.css'}
             // href={
             //   'https://cdn.freecodecamp.org/compiled/bootstrap/v3/css/' +
             //   'bootstrap.min.css'
