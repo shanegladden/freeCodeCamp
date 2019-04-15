@@ -55,7 +55,7 @@ int linearSearch(int arr[], int num)
 
 ```
 
-### Example in JavaScript
+### Example in Javascript
 ```javascript
 function linearSearch(arr, item) {
   // Go through all the elements of arr to look for item.

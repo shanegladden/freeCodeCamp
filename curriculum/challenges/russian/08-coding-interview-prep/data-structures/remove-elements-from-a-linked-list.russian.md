@@ -58,7 +58,7 @@ function LinkedList() {
     if(head === null){
         head = node;
     } else {
-        var currentNode = head;
+        currentNode = head;
 
         while(currentNode.next){
             currentNode  = currentNode.next;

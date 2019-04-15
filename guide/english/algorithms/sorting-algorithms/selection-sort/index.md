@@ -66,8 +66,8 @@ void recurSelectionSort(int a[], int n, int index = 0)
 }
 ```
 
-### Implementation in JavaScript
-```js
+### Implementation in Javascript
+``` Javascript
 function selection_sort(A) {
     var len = A.length;
     for (var i = 0; i < len - 1; i = i + 1) {
