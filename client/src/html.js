@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './css/bootstrap.css';
+// import './css-panel.css';
 
 export default class HTML extends React.Component {
   render() {
@@ -13,14 +13,7 @@ export default class HTML extends React.Component {
             content='width=device-width, initial-scale=1, shrink-to-fit=no'
             name='viewport'
           />
-          <link
-            href={'/css/bootstrap.css'}
-            // href={
-            //   'https://cdn.freecodecamp.org/compiled/bootstrap/v3/css/' +
-            //   'bootstrap.min.css'
-            // }
-            rel='stylesheet'
-          />
+
           {this.props.headComponents}
         </head>
         <body {...this.props.bodyAttributes}>

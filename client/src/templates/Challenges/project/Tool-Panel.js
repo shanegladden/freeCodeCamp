@@ -36,7 +36,7 @@ export class ToolPanel extends Component {
             href={guideUrl}
             target='_blank'
           >
-            Get a hint!
+            Get a hint
           </Button>
         )}
         <Button

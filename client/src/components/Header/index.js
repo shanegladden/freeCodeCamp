@@ -103,7 +103,7 @@ class Header extends Component {
                       Learn
                     </Link>
                   </li>
-                  <li>
+                  <li className='d-none'>
                     <Link
                       className='top-right-nav-link'
                       external={true}
@@ -112,7 +112,7 @@ class Header extends Component {
                       Forum
                     </Link>
                   </li>
-                  <li>
+                  <li className='d-none'>
                     <Link
                       className='top-right-nav-link'
                       external={true}
